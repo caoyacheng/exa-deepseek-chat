@@ -11,13 +11,16 @@
   "dependencies": {
     "@ai-sdk/deepseek": "^0.1.6",
     "@ai-sdk/fireworks": "^0.1.6",
+    "@types/ali-oss": "^6.16.11",
     "@vercel/analytics": "^1.4.1",
     "ai": "^4.1.10",
+    "ali-oss": "^6.22.0",
     "exa-js": "^1.4.8",
     "next": "14.2.17",
     "react": "^18",
     "react-dom": "^18",
     "react-markdown": "^9.0.3",
+    "react-quill": "^2.0.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {

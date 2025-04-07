@@ -1,7 +1,7 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Analytics } from '@vercel/analytics/next';
 
 // Load the ABCDiatype font (Regular and Bold only)
 const abcdDiatype = localFont({
@@ -22,32 +22,35 @@ const reckless = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Exa & Deepseek Chat App",
-  description: "An opensource chat application built with Exa for web search and Deepseek R1.",
+  title: "AI医疗智能平台 - 专业医疗咨询服务",
+  description:
+    "AI医疗智能平台提供专业的医疗咨询服务，利用先进的人工智能技术，为您解答健康问题，提供医疗建议。",
   openGraph: {
-    title: "Exa & Deepseek Chat App",
-    description: "An opensource chat application built with Exa for web search and Deepseek R1.",
+    title: "AI医疗智能平台 - 专业医疗咨询服务",
+    description:
+      "AI医疗智能平台提供专业的医疗咨询服务，利用先进的人工智能技术，为您解答健康问题，提供医疗建议。",
     type: "website",
-    locale: "en_US",
+    locale: "zh_CN",
     images: [
       {
-        url: "https://demo.exa.ai/deepseekchat/opengraph-image.jpg",
+        url: "https://demo.exa.ai/deepfinchat/opengraph-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Exa & Deepseek Chat App"
-      }
-    ]
+        alt: "AI医疗智能平台",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exa & Deepseek Chat App",
-    description: "An opensource chat application built with Exa for web search and Deepseek R1.",
-    images: ["https://demo.exa.ai/deepseekchat/opengraph-image.jpg"]
+    title: "AI医疗智能平台 - 专业医疗咨询服务",
+    description:
+      "AI医疗智能平台提供专业的医疗咨询服务，利用先进的人工智能技术，为您解答健康问题，提供医疗建议。",
+    images: ["https://demo.exa.ai/deepfinchat/opengraph-image.jpg"],
   },
-  metadataBase: new URL("https://demo.exa.ai/deepseekchat"),
+  metadataBase: new URL("https://demo.exa.ai/deepfinchat"),
   robots: {
     index: true,
-    follow: true
+    follow: true,
   },
 };
 
@@ -57,7 +60,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="zh-CN">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>

@@ -8,7 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 
   /* COLORS */
-  --brand-default: #254bf1;
+  --brand-default: #097739;
   --brand-fainter: #e7ebfd;
   --brand-faint: #c6cfff;
   --brand-subtle: #a1aff7;
@@ -16,12 +16,12 @@
   --brand-dark: #0d2189;
   --brand-darker: #000a40;
 
-  --secondary-accent: #9f9672;
-  --secondary-accent2x: #89805d;
+  --secondary-accent: #cbc9c3;
+  --secondary-accent2x: #cdcbc2;
   --secondary-dark: #f4f1e7;
-  --secondary-darker: #efebdc;
+  --secondary-darker: #e4e1d9;
   --secondary-darkest: #e5e0cd;
-  --secondary-default: #faf7ec;
+  --secondary-default: #f6f7f8;
   --secondary-faint: #fffdf5;
   --secondary-fainter: #fffefa;
 
